@@ -6,43 +6,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker APP</title>
+
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="app">
-        <h1 class="header">Expense Tracker App</h1>
-        <table>
-            
-            <tr>
-                <td>Balance Salary</td>
-                <td>Expense</td>
-                <td>Saving Profit</td>
-            </td>
-          </tr>
-          <td class="Balance Salary">R<span id="Balance Salary"></span>
-          </td>
-                <td class="Expense">R<span id="Expense"></span>
-                </td>
-            <td class="Saving Profit">R<span id="Saving Profit"></span>
-            </td>
-          </table>
+        <h1>Expense Tracker App</h1>
 
-          <img src=".//3177440.png" alt="">
+        <div class="cashflow-container">
+            <div class="balance-container">
+                <h2> Balance Salary</h2>
+                <div id="Balance Salary">R6500</div>
+            </div>
 
-          <div class="form">
-            <input type="text" Addblance="Detail" id="detail" />
-            <input type="number" Addblance="Amount" id="amount" />
+            <div class="Expense-container">
+                <h2> Expense</h2>
+                <div id="Expense">R3000</div>
+            </div>
+            <div class="Income-container">
+                <h2> Income</h2>
+                <div id="Income">R2700</div>
+            </div>
+
+            <div class="Saving Profit-contaier">
+                <h2> Saving Profit</h2>
+                <div id="Saving Profit">R3500</div>
+            </div>
+        </div>
+            <div class="transaction-container">
+                <ul>
+                    <il>
+                        Salary
+                    </il>
+                    <div>
+                        <span class="Income-amt">R6500</span>
+                        <button>delate</button>
+                    </div>
+
+                    </il>
+                    Rent
+                    <il>
+                        <div>
+                            <span class="Expense-amt">R1200</span>
+                            <button>delate</button>
+                        </div>
+
+                    </il>
+                    <il>
+                        Food
+                        <div>
+                            <span class="Expense-amt">R1500</span>
+                            <button>delate</button>
+                        </div>
+
+                    </il>
+
+                    <il>
+                        <div>
+                            Transport
+                            <div>
+                                <span class="Expense-amt">R1500</span>
+                                <button>delate</button>
+                            </div>
+                    </il>
+
+                    <il>
+                        <div>
+                            Clothing
+                            <div>
+                                <span class="Expense-amt">R800</span>
+                                <button>delate</button>
+                            </div>
+                    </il>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="form-container">
+            <h2>Add History New transaction </h2>
+            <form>
+                <label for="name">Name</label>
+                <label id="name" type="text">
+                    <label for="amount">Amount</label>
+                    <input id="amount" type="number">
+                    <button id="button-expense">Add Expense - </button>
+                    <button id="button-income">Add Income + </button>
+            </form>
+
+            <!-- <div class="addBlanace"> -->
+
+            <!-- <div class="buttons"> -->
+
+
+        </div>
     </div>
 
-    <div class = "addBlanace">
-
-    <div class="buttons">
-        <button class="button-expense">Add Expense - </button>
-        <button class="button-income">Add Income + </button>
-      </div>
-
-    </div>
 </body>
 
 </html>

@@ -1,4 +1,114 @@
-* {
+
+
+
+:root {
+    --box-shadow: 0px 1px 4px 1px rgb(7, 180, 174);
+}
+
+.app {
+    width: 615px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(217, 221, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+
+.app h1 {
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.balance-container#balance {
+    font-size: 1.5em;
+
+}
+
+.cashflow-container {
+    display: flex;
+    box-shadow: var(--box-shadow);
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.Income-container {
+    border-right: 3px solid yellowgreen;
+    padding-right: 20px;
+}
+
+.Expense-container {
+    border-left: 3px solid red;
+    padding-left: 20px;
+
+}
+.Income-container {
+    border-right: 3px solid orange;
+    padding-right: 20px;
+}
+.Balance Salary{
+    border-right: 2px solid green;
+    padding-right: 20px;
+}
+
+#Income,#Expense ,#Balance,#Saving {
+    font-size: 1.3em;
+    margin:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +124,7 @@ body {
     width: 750px;
     height: 100vh;
     margin: 0 auto;
-    background-color:rgb(244, 214, 132);
+    background-color:black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,4 +203,4 @@ input {
   .button-income {
     background-color: rgb(18, 154, 18);
   }
-
+ */
