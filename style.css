@@ -4,8 +4,8 @@
 }
 
 .app {
-    width: 715px;
-    height: 112vh;
+    width: 635px;
+    height: 115vh;
     margin: 0 auto;
     background-color: rgb(217, 221, 237);
     display: flex;
@@ -45,7 +45,6 @@ h2 {
     margin-top: 10px;
     padding-left: 7%;
     padding-right: 12%;
-    margin-left: -11%;
 }
 .expense-container{
 margin-right: 20%;
@@ -105,11 +104,10 @@ margin-right: 20%;
     background-color: #04AA6D;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 78%;
+    width: 65%;
     text-align: center;
     margin-top: 7%;
     justify-content: space-between;
-    margin-right:20% ;
 }
 
 .form{
@@ -122,10 +120,6 @@ margin-right: 20%;
     display: flex;
     flex-direction: column;
 }
-.button {
-    display: flex;
-    cursor: pointer;
-}
 
 #expense{
     background-color: #04AA6D;;
@@ -135,7 +129,7 @@ margin-right: 20%;
     background-color: #e08989;
 }
 
-#totalBalance{
+#Total-container{
     background-color: greenyellow;
 
 }
@@ -148,4 +142,16 @@ width: 50%;
     background-color: #04AA6D;
 }
 
+.button-expense{
+background-color: #04AA6D;
+cursor: pointer;
+}
 
+.button-income{
+    background-color: #e08989;
+    cursor: pointer;
+}
+
+#total-value{
+    background-color: #04AA6D;
+}

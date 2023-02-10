@@ -13,13 +13,16 @@
 <body>
     <div class="app">
         <h1>Expense Tracker App</h1>
+       
         <div class="total-amount-container">
             <h3>Budget</h3>
-            <span id="total-value">R0</span>
-            <br>
+            <span id="total-value">R6500</span>
+        </div>
+
             <div class="cashflow-container">
             <div class="expense-container">
-                <div class="income-container">
+               
+                <div class="Total-container">
                     <h2> Total Balance</h2>
                     <div id="totalBalance">R0</div>
                 </div>
@@ -37,7 +40,6 @@
         <div class="transaction-container">
             <h2>Add History New transaction</h2>
         </div>
-        <br>
        
         <table id="transaction-amt">
             <tr>
@@ -72,13 +74,17 @@
         <div class="form">
             <input type="text" class="product-title" id="product-title" placeholder="Enter Name" />
             <br>
-            <input type="number" id="user-amount" placeholder="Enter Amount" />
+            <input type="number" id="user-amount" placeholder="Enter Amount"onclick="" />
             <br><br>
-            <button onclick="expense()">Add Expense - </button>
-            <br>
-            <button onclick="income()">Add Income - </button>
+            <div class="buttons">
+                <button class="button-expense" onclick="expense()">
+                    Add Expense -</button
+                  ><button class="button-income" onclick="income()">
+                    Add Income +
+                </button>
         </div>
-<br>
+    </div>
+
         <script src="./scrpt.js"></script>
 
 
