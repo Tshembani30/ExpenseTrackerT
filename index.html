@@ -12,95 +12,67 @@
 
 <body>
     <div class="app">
-        <h1>Expense</h1>
+        <h1>Expense Tracker App</h1>
 
         <div class="cashflow-container">
-            <div class="balance-container">
-                <h2> Balance Salary</h2>
-                <div id="Balance Salary">R0</div>
+            <div class="expense-container">
+                <h2> expense</h2>
+                <div id="expense">R0</div>
             </div>
-
-            <div class="Expense-container">
-                <h2> Expense</h2>
-                <div id="Expense">R0</div>
-            </div>
-            <div class="Income-container">
-                <h2> Income</h2>
-                <div id="Income">R0</div>
-            </div>
-
-            <div class="Saving Profit-contaier">
-                <h2> Saving Profit</h2>
-                <div id="Saving Profit">R0</div>
+            <div class="income-container">
+                <h2> income</h2>
+                <div id="income">R0</div>
             </div>
         </div>
-            <div class="transaction-container">
-                <ul>
-                    <li>
-                        Salary
-                    </li>
-                    <div>
-                        <span class="Income-amt">R0</span>
-                        <button>delate</button>
-                    </div>
+        <div class="transaction-container">
+            <h2>Add History New transaction</h2>
+        </div>
+        <br>
+        <table id="transaction-amt">
+            <tr>
+              <th>Expense</th>
+              <th>Amount Balance </th>
+              <th>Remove Amount</th>
+            </tr>
+            <tr>
+              <td>Rent</td>
+              <td><span class="expense-amt">R</td>
+              <td><button>X</button></td>
+            </tr>
+            <tr>
+              <td>Food</td>
+              <td><span class="expense-amt">R</td>
+              <td><button>X</button></td>
+            </tr>
+            <tr>
+              <td>Transport</td>
+              <td><span class="expense-amt">R</span></td>
+              <td><button>X</button></td>
+            </tr>
+            <tr>
+              <td>Clothing</td>
+              <td><span class="expense-amt">R</span></td>
+              <td><button>X</button></td>
+            </tr>
 
-                </li>
-                    Rent
-                    <li>
-                        <div>
-                            <span class="Expense-amt">R0</span>
-                            <button>delate</button>
-                        </div>
+    </div>
 
-                    </li>
-                    <li>
-                        Food
-                        <div>
-                            <span class="Expense-amt">R0</span>
-                            <button>delate</button>
-                        </div>
-
-                    </li>
-
-                    <li>
-                        <div>
-                            Transport
-                            <div>
-                                <span class="Expense-amt">R0</span>
-                                <button>delate</button>
-                            </div>
-                        </li>
-
-                    <li>
-                        <div>
-                            Clothing
-                            <div>
-                                <span class="Expense-amt">R0</span>
-                                <button>delate</button>
-                            </div>
-                        </li>
-                </ul>
+    <div class="form-container">
+        <div class="form">
+            <label for="name">Name</label>
+            <label id="name" type="text">
+                <br><br>
+                <label for="amount">Amount</label>
+                <input id="amount" type="number">
+                <br><br><br>
+                <button onclick="expense()">Add Expense - </button>
+                <button onclick="income()">Add Income + </button>
             </div>
 
-        </div>
-
-        <div class="form-container">
-            <h2>Add History New transaction </h2>
-            <form>
-                <label for="name">Name</label>
-                <label id="name" type="text">
-                    <label for="amount">Amount</label>
-                    <input id="amount" type="number">
-                    <button id="button-expense">Add Expense - </button>
-                    <button id="button-income">Add Income + </button>
-            </form>
-
-            <!-- <div class="addBlanace"> -->
-
-            <!-- <div class="buttons"> -->
+       <script src="./scrpt.js"></script>
 
 
-        </div>
+    </div>
     </div>
 
 </body>
