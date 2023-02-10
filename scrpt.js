@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 function expense()
 {
   console.log("addAmt")
@@ -5,5 +15,5 @@ function expense()
 
 function income()
 {
-  console.log("addAmt")
+  console.log("income")
 }
